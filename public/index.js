@@ -50,7 +50,7 @@ function showPortfolio() {
             This is the realtor app description
         </div>
         <div class="center" id="gifArea">
-            <img src="./readme.gif"id="gif">
+            <img src="./assets/readme.gif"id="gif">
         </div>
         <br>
     `);
@@ -100,7 +100,7 @@ function showProject1() {
 
     $('#gifArea').empty();
     $('#gifArea').append(`
-        <img src="./readme.gif"id="gif">
+        <img src="./assets/readme.gif"id="gif">
     `);
 }
 function showProject2() {
@@ -116,7 +116,7 @@ function showProject2() {
 
     $('#gifArea').empty();
     $('#gifArea').append(`
-        <img src="./farmer'sFriend.gif" id="gif">
+        <img src="./assets/farmer'sFriend.gif" id="gif">
     `);
 }
 function showProject3() {
@@ -132,6 +132,6 @@ function showProject3() {
 
     $('#gifArea').empty();
     $('#gifArea').append(`
-        <img src="./CMSdemo.gif" id="gif">
+        <img src="./assets/CMSdemo.gif" id="gif">
     `);
 }
