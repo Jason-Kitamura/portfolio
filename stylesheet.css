@@ -1,0 +1,99 @@
+body {
+    background-image: url('./yosemiteDark.jpg');
+    /* background-color: rgb(48, 46, 53); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color : whitesmoke;
+    text-shadow: 6px 6px 3px #000000;
+  }
+.header {
+    text-align: center;
+    text-shadow: 6px 6px 8px #000000;
+
+}
+.center {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.inputStyle {
+    border-radius: 5px;
+}
+.form-control{
+    box-shadow: 8px 8px 10px #000000;
+}
+#navigation {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+#content {
+    border: whitesmoke solid;
+    border-radius : 10px ;
+    min-height: 400px;
+    width: 80%;
+    display: block;
+    margin: auto;
+    box-shadow: 8px 8px 20px #000000;
+
+}
+#profile-pic {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    height: 200px;
+    width: auto;
+    border: whitesmoke solid;
+    border-radius: 5px;
+    box-shadow: 8px 8px 20px #000000;
+
+}
+#docLinks {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+#bio {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: whitesmoke solid thin;
+    border-radius: 5px;
+    max-width: 500px ;
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 8px 8px 20px #000000;
+
+}
+#gifArea {
+    width: 80%;
+    max-width: 900px;
+    height: auto;
+    border: whitesmoke solid thin;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 8px 8px 20px #000000;
+
+}
+#gif {
+    width: 100%;
+    height: auto;
+}
+#emailForm {
+    display: block;
+    margin: auto;
+}
+#emailMessage {
+    height: 100px
+}
+#email-Btn {
+    border-radius: 5px;
+    float : right;
+    box-shadow: 8px 8px 10px #000000;
+}
