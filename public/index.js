@@ -12,7 +12,7 @@ function showAboutMe() {
     $('#content').append(`
         <h3 class="center">About Me</h3>
         <div>
-        <img src="https://myportfoliomedia.s3.us-east-2.amazonaws.com/profilePic.jpg">
+        <img src="https://myportfoliomedia.s3.us-east-2.amazonaws.com/profilePic.jpg" id="profile-pic">
         </div>
             <br>
         <div class="row">
@@ -37,9 +37,9 @@ function showPortfolio() {
         <div class="row">
             <div class="col-sm-9 center" id="projects">
                 <div class="row">
-                    <div class="col-sm-4" id="project1" onclick="showProject1()" style="border : whitesmoke solid thin;">Realtor App</div>
-                    <div class="col-sm-4" id="project2" onclick="showProject2()">Farmer's Friend</div>
-                    <div class="col-sm-4" id="project3" onclick="showProject3()">Management CMS</div>
+                    <div class="col-sm-4 inputStyle" id="project1" onclick="showProject1()" style="border : whitesmoke solid thin;">Realtor App</div>
+                    <div class="col-sm-4 inputStyle" id="project2" onclick="showProject2()">Farmer's Friend</div>
+                    <div class="col-sm-4 inputStyle" id="project3" onclick="showProject3()">Management CMS</div>
                 </div>
             </div>
         </div>
