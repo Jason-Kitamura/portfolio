@@ -1,5 +1,5 @@
 body {
-    background-image: url('./assets/yosemiteDark.jpg');
+    background-image: url('https://myportfoliomedia.s3.us-east-2.amazonaws.com/yosemiteDark.jpg');
     /* background-color: rgb(48, 46, 53); */
     background-repeat: no-repeat;
     background-attachment: fixed;

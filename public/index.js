@@ -12,7 +12,7 @@ function showAboutMe() {
     $('#content').append(`
         <h3 class="center">About Me</h3>
         <div>
-        <img src="./profilePic.jpg" id="profile-pic">
+        <img src="https://myportfoliomedia.s3.us-east-2.amazonaws.com/profilePic.jpg">
         </div>
             <br>
         <div class="row">
@@ -37,12 +37,13 @@ function showPortfolio() {
         <div class="row">
             <div class="col-sm-9 center" id="projects">
                 <div class="row">
-                    <div class="col-sm-4" id="project1" onclick="showProject1()" style="text-decoration : underline">Realtor App</div>
+                    <div class="col-sm-4" id="project1" onclick="showProject1()" style="border : whitesmoke solid thin;">Realtor App</div>
                     <div class="col-sm-4" id="project2" onclick="showProject2()">Farmer's Friend</div>
                     <div class="col-sm-4" id="project3" onclick="showProject3()">Management CMS</div>
                 </div>
             </div>
         </div>
+        <br>
         <div class="center">
             <a href="https://github.com/stephanieblom/myRealtor" target="_blank" id="projectLink" style="color: whitesmoke;><i class="fa fa-github"></i>&nbsp;Github Link</a>
         </div>
@@ -50,7 +51,7 @@ function showPortfolio() {
             This is the realtor app description
         </div>
         <div class="center" id="gifArea">
-            <img src="./assets/readme.gif"id="gif">
+            <img src="https://myportfoliomedia.s3.us-east-2.amazonaws.com/readme.gif" id="gif">
         </div>
         <br>
     `);
@@ -66,7 +67,7 @@ function showEmailForm() {
                     <div class="row">
                         <div class="form-group col-sm-4">
                             <label for="exampleFormControlInput1">Name</label>
-                            <input type="email" class="form-control" id="userName" placeholder="John Smith" style="opacity: 0.7">
+                            <input type="email" class="form-control" id="userName" placeholder="John Smith" style="opacity: 0.85">
                         </div>
                         <div class="form-group col-sm-4">
                             <label for="exampleFormControlInput1">Email</label>
@@ -88,9 +89,9 @@ function showEmailForm() {
     `);
 }
 function showProject1() {
-    $('#project2').removeAttr('style', 'text-decoration : underline');
-    $('#project3').removeAttr('style', 'text-decoration : underline');
-    $('#project1').attr('style', 'text-decoration : underline')
+    $('#project2').removeAttr('style', 'border : whitesmoke solid thin;');
+    $('#project3').removeAttr('style', 'border : whitesmoke solid thin;');
+    $('#project1').attr('style', 'border : whitesmoke solid thin;')
 
     $('#projectLink').removeAttr('href');
     $('#projectLink').attr('href', 'https://github.com/stephanieblom/myRealtor' );
@@ -100,13 +101,13 @@ function showProject1() {
 
     $('#gifArea').empty();
     $('#gifArea').append(`
-        <img src="./assets/readme.gif"id="gif">
+        <img src="https://myportfoliomedia.s3.us-east-2.amazonaws.com/readme.gif" id="gif">
     `);
 }
 function showProject2() {
-    $('#project1').removeAttr('style', 'text-decoration : underline');
-    $('#project3').removeAttr('style', 'text-decoration : underline');
-    $('#project2').attr('style', 'text-decoration : underline')
+    $('#project1').removeAttr('style', 'border : whitesmoke solid thin;');
+    $('#project3').removeAttr('style', 'border : whitesmoke solid thin;');
+    $('#project2').attr('style', 'border : whitesmoke solid thin;')
 
     $('#projectLink').removeAttr('href');
     $('#projectLink').attr('href', 'https://github.com/koustub/farmerPeer' );
@@ -116,13 +117,13 @@ function showProject2() {
 
     $('#gifArea').empty();
     $('#gifArea').append(`
-        <img src="./assets/farmer'sFriend.gif" id="gif">
+        <img src="https://myportfoliomedia.s3.us-east-2.amazonaws.com/farmer'sFriend.gif" id="gif">
     `);
 }
 function showProject3() {
-    $('#project2').removeAttr('style', 'text-decoration : underline');
-    $('#project1').removeAttr('style', 'text-decoration : underline');
-    $('#project3').attr('style', 'text-decoration : underline')
+    $('#project2').removeAttr('style', 'border : whitesmoke solid thin;');
+    $('#project1').removeAttr('style', 'border : whitesmoke solid thin;');
+    $('#project3').attr('style', 'border : whitesmoke solid thin;')
 
     $('#projectLink').removeAttr('href');
     $('#projectLink').attr('href', 'https://github.com/Jason-Kitamura/Homework10' );
@@ -132,6 +133,6 @@ function showProject3() {
 
     $('#gifArea').empty();
     $('#gifArea').append(`
-        <img src="./assets/CMSdemo.gif" id="gif">
+        <img src="https://myportfoliomedia.s3.us-east-2.amazonaws.com/CMSdemo.gif" id="gif">
     `);
 }
