@@ -12,7 +12,7 @@ function showAboutMe() {
     $('#content').append(`
         <h3 class="center">About Me</h3>
         <div>
-        <img src="https://myportfoliomedia.s3.us-east-2.amazonaws.com/profilePic.jpg" id="profile-pic">
+        <img src="./assets/profilePic.jpg" id="profile-pic">
         </div>
             <br>
         <div class="row">
@@ -20,7 +20,7 @@ function showAboutMe() {
                 <div class="row">
                     <div class="col-4"><a href="https://www.linkedin.com/in/jason-kitamura-7968a719b/" target="_blank" style="color: whitesmoke"><i class="fa fa-linkedin" ></i>&nbsp;LinkedIn</a></div>
                     <div class="col-4"><a href="https://github.com/Jason-Kitamura" target="_blank" style="color: whitesmoke"><i class="fa fa-github"></i>&nbsp;Github</a></div>
-                    <div class="col-4"><i class="fa fa-download" ></i>&nbsp;Resume</div>
+                    <div class="col-4 resume"><i class="fa fa-download" ></i>&nbsp;Resume</div>
                 </div>
             </div>
         </div>
@@ -37,9 +37,9 @@ function showPortfolio() {
         <div class="row">
             <div class="col-sm-9 center" id="projects">
                 <div class="row">
-                    <div class="col-sm-4 inputStyle" id="project1" onclick="showProject1()" style="border : whitesmoke solid thin;">Realtor App</div>
-                    <div class="col-sm-4 inputStyle" id="project2" onclick="showProject2()">Farmer's Friend</div>
-                    <div class="col-sm-4 inputStyle" id="project3" onclick="showProject3()">Management CMS</div>
+                    <div class="col-sm-4 inputStyle pointer" id="project1" onclick="showProject1()" style="border : whitesmoke solid thin;">Realtor App</div>
+                    <div class="col-sm-4 inputStyle pointer" id="project2" onclick="showProject2()">Farmer's Friend</div>
+                    <div class="col-sm-4 inputStyle pointer" id="project3" onclick="showProject3()">Management CMS</div>
                 </div>
             </div>
         </div>
@@ -51,7 +51,7 @@ function showPortfolio() {
             This is the realtor app description
         </div>
         <div class="center" id="gifArea">
-            <img src="https://myportfoliomedia.s3.us-east-2.amazonaws.com/readme.gif" id="gif">
+            <img src="./assets/readme.gif" id="gif">
         </div>
         <br>
     `);
@@ -82,7 +82,7 @@ function showEmailForm() {
                         <label for="exampleFormControlInput1">Message</label>
                         <input type="email" class="form-control" id="emailMessage" style="opacity: 0.85">
                     </div>
-                    <button id="email-Btn">Send <i class="fa fa-long-arrow-right"></i></button>
+                    <button class="pointer" id="email-Btn">Send <i class="fa fa-long-arrow-right"></i></button>
                 </div>
             </div>
         </form>
@@ -101,7 +101,7 @@ function showProject1() {
 
     $('#gifArea').empty();
     $('#gifArea').append(`
-        <img src="https://myportfoliomedia.s3.us-east-2.amazonaws.com/readme.gif" id="gif">
+        <img src="./assets/readme.gif" id="gif">
     `);
 }
 function showProject2() {
@@ -117,7 +117,7 @@ function showProject2() {
 
     $('#gifArea').empty();
     $('#gifArea').append(`
-        <img src="https://myportfoliomedia.s3.us-east-2.amazonaws.com/farmer'sFriend.gif" id="gif">
+        <img src="./assets/farmer'sFriend.gif" id="gif">
     `);
 }
 function showProject3() {
@@ -133,6 +133,6 @@ function showProject3() {
 
     $('#gifArea').empty();
     $('#gifArea').append(`
-        <img src="https://myportfoliomedia.s3.us-east-2.amazonaws.com/CMSdemo.gif" id="gif">
+        <img src="./assets/CMSdemo.gif" id="gif">
     `);
 }
